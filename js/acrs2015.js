@@ -40,7 +40,7 @@ if (!Array.prototype.last){
 			     	  	    window.location.href = 'index.html#profile';
 						}
 						else{
-							return '<h1>Sign up</h1><div class="acrs_login"><label style="margin-left:10px;" for="acrs_username">Account</label><input id="acrs_username" type="text"><label for="acrs_password">Password</label><input id="acrs_password" type="password"><label style="padding-left:22px;" for="acrs_email">E-mail</label><input type="email"><button style="margin:45px 0 0 105px;" class="acrs_btn" onclick="signup()">submit</button></div>';
+							return '<h1>Sign up</h1><div class="acrs_login"><label style="margin-left:10px;" for="acrs_username">Account</label><input id="acrs_username" type="text"><label for="acrs_password">Password</label><input id="acrs_password" type="password"><label style="padding-left:22px;" for="acrs_email">E-mail</label><input id="acrs_email" type="email"><button style="margin:45px 0 0 105px;" class="acrs_btn" onclick="signup()">submit</button></div>';
 						}
 					},
 					login:function(){
@@ -140,6 +140,7 @@ function login(){
      });
 }
 function signup(){
+	console.log($('#acrs_email').val());
     var user = new Parse.User();
      user.set("username",$('#acrs_username').val());
      user.set("password",$('#acrs_password').val());
@@ -147,7 +148,7 @@ function signup(){
      user.signUp(null,{
    	  success: function(user){
 		  alert("Success !!");
-   	  	  window.location.href = 'index.html#login';
+   	  	//  window.location.href = 'index.html#login';
    	  },
    	  error: function(data,error){
    		  alert("Signup fail, REMEMBER one email account can ONLY signup ONCE");
