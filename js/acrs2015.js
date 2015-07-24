@@ -148,7 +148,7 @@ function signup(){
      user.signUp(null,{
    	  success: function(user){
 		  alert("Success !!");
-   	  	//  window.location.href = 'index.html#login';
+   	  	  window.location.href = 'index.html#login';
    	  },
    	  error: function(data,error){
    		  alert("Signup fail, REMEMBER one email account can ONLY signup ONCE");
