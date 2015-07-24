@@ -1,0 +1,147 @@
+a,a:hover,a:visited,a:active,a:focus{
+	text-decoration:none;
+	color:#000000;
+}
+h1,h4{
+	margin-left:35px;
+}
+body{
+	min-width:960px;
+	max-width:100vw;
+	width:100%;
+	height:100vh;
+	background:#444444;
+	font-family: 'Martel', serif;
+	overflow:hidden;
+}
+.grid_960{
+	width:960px;
+	height:100vw;
+	margin:0 auto;
+	background:white;
+}
+header{
+	height:160px;
+}
+.header_bgimg_l{
+	width:170px;
+	height:150px;
+	background:url('../img/logo_bw.jpg');
+	background-size:170px 150px;
+	float:left;
+	margin-top:5px;
+}
+.header_bgimg_r{
+	background:url('../img/header.jpg');
+	width:725px;
+	height:150px;
+	background-size:725px 150px;
+	opacity:0.8;
+	float:right;	
+	margin-top:5px;
+	margin-right:20px;
+}
+.header_bgimg_r_h3{
+	color:#fff;
+	border-left:1px solid #fff;
+	padding-left:15px;
+	margin:0 0 0 130px;
+}
+.header_bgimg_r_h5{
+	color:#000;
+	padding-left:1px;
+	margin-left:145px;
+	margin-top:20px;
+}
+.acrs_ul_l{
+	font-size:16px;
+	margin-left:30px;
+	margin-top:35px;
+	width:185px;
+	height:480px;
+	border-right: 1.5px solid #000;
+	float:left;
+}
+.acrs_ul_l li{
+	margin-top:45px;
+}
+.acrs_ul_r{
+	font-size:16px;
+	float:right;
+	margin:5px 25px 5px 0px;
+}
+.acrs_ul_r li{
+	display:inline-block;
+	padding-left:10px;	
+	height:20px;
+}
+.acrs_ul_r_line{
+	border-right:1px solid #000;
+	padding-right:10px;
+}
+#switchView{
+	float:right;
+	margin-right:20px;
+	width:715px;
+	height:480px;
+}
+.acrs_btn{
+	background:rgb(72,72,72);
+	color:white;
+	border:0;
+	padding:5px 8px;
+}
+.acrs_login{
+	width:300px;
+	height:400px;
+	margin:0 auto;
+	padding-top:70px;
+}
+.acrs_profile{
+	width:280px;
+	padding-top:10px;
+	height:145px;
+	margin:0 auto;
+}
+.acrs_login label{
+	margin:8px 10px 8px 0;
+	font-size:18px;
+}
+.acrs_profile label{
+	margin:8px 10px 8px 0;
+	font-size:16px;
+}
+.acrs_login input,.acrs_profile input{
+	margin:5px;
+}
+.logged,.unlogged{
+	display:none;
+}
+#acrs_file{
+	margin-left:10px;
+	display:inline-block;
+}
+.acrs_uploaded_pdf{
+	border-top:1px solid #000000;
+	padding-top:5px;
+	margin:25px 0 0 25px;
+	width:660px;
+}
+.acrs_uploaded_pdf h4{
+	margin-left:0;
+}
+.acrs_uploaded_pdf_list{
+	border:1px solid #000000;
+	width:600px;
+}
+.acrs_uploaded_pdf_list_title{
+	width:500px;
+	display:inline-block;
+	text-align:center;
+}
+.acrs_uploaded_pdf_list_delete{
+	width:95px;
+	display:inline-block;
+	text-align:center;
+	border-left:1px solid #000;
+}
