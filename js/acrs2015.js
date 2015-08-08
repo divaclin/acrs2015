@@ -232,6 +232,8 @@ function update(){
 				alert('profile update success');
 			},
 			error:function(data,error){
+				console.log(data);
+				console.log(error);
 				alert('update error');
 			}
 		});		
