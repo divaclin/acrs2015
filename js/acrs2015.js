@@ -13,11 +13,11 @@ if (!Array.prototype.last){
 		}
 		Router.prototype.switchView ={
 					index:function(){
-				 	 	return '<div>index</div>';
+				 	 	return '<p style="font-size:30px;">Welcome</p></br><p>Proposed Dates of Event:	14-16 December 2015</p><p>Event Venue:	National Chengchi University, Taiwan</p>';
 			     	},
 				 	theme:function(){
 				  
-				  		return '<div>theme</div>';
+				  		return '<p style="font-size:30px;">Event Themes</p></br><table class="table table-hover infTab"><tr><td style="font-weight: bold;">Title of the Event:</td><td>Advances in global DEMs and Tools for assessing their quality, useability and interoperability</td></tr><tr><td style="font-weight: bold;">Proposed Dates of Event: </td><td>14-16 December 2015</td></tr><tr><td style="font-weight: bold;">Event Venue:</td><td>National Chengchi University, Taiwan</td></tr><tr><td style="font-weight: bold;">Themes of Event:</td><td><p style="font-weight: bold;">Global DEMs</p>SRTM 3.0 and NASADEM</br>ASTER GDEM 3.0</br>ALOS PRISM</br>IRS-5P</br>Airbus DS WorldDEM </br></br><p style="font-weight: bold;">Assessment of Global DEMs</p>Assessments of TanDEM-X i-DEM</br>CEOS-WGCV test site assessments</br>Statistical tools for DEM QA</br>Global assessments using altimetry</br></br><p style="font-weight: bold;">Tools for working with global DEMs and exploring interoperability</p>ESRI</br>Google</br>Bing</br>Baidu</br>Open source</br></br><p style="font-weight: bold;">Working with Global DEMs</p>Georadiometric correction </br>CSIRO</br>USGS</br>US Hydrology</br>GEO</br>Disasters</br></br><p style="font-weight: bold;">Hands on tutorials on iPads & Androids</p>Open source </br>Google</br>ArcGis</br>Apps</br></td></tr></table>';
 			        },
 			  		date:function(){
 
@@ -25,22 +25,22 @@ if (!Array.prototype.last){
 			     	},
 				 	transportation:function(){
 			 
-						return '<div>transportation</div>';
+						return '<p style="font-size:30px;">Transportation</p></br><p style="font-weight: bold;">From Taiwan Taoyuan International Airport to NCCU</p><iframe src="http://www.dr2ooo.com/tools/maps/maps.php?zoom=16&width=500&height=266&ll=24.986272,-238.424186&ctrl=true&" width="500" height="266"></iframe></br></br><p style="font-weight: bold;">By Taxi</p><p>There is a taxi pickup area by the Terminal Arrival area at Taiwan Taoyuan International Airport. Airport taxies provide 24-hour transportation services. For a one way trip from Taoyuan International Airport to Taipei City, the taxi cost falls in the range of $1,100 - 1,700 approximately, depending on the numbers of passengers, luggages, and the size of the car.</p><p>Terminal 1 Taxi Service Center s phone number:+886-3-398-2832</p><p>Terminal 2 Taxi Service Center s phone number:+886-3-398-3599</p></br><p style="font-weight: bold;">By Public Transportation</p><p>From the airport arrival area, take the airport bus to Zhongxiao Fuxing MRT Station. Then, take the MRT (Taipei Rapid Transit System) brown line, to MRT Taipei Zoo. Then, take the bus (#236, 237, 611, 282, BR11 , or BR6) across the street from MRT Taipei Zoo Station to NCCU. Total cost is about NT$200.</p><a href="http://www.nccu.edu.tw/uploads/asset/data/54edfcc875627509e09c0b00/06NCCU_Traffic_Map_en.jpg"><img src="http://www.nccu.edu.tw/uploads/asset/data/54edfcc875627509e09c0b00/06NCCU_Traffic_Map_en.jpg" style="width:400px;"></a>';
 			  	 	},
 					accommdation:function(){
 				
-			            return '<div>accommdation</div>';
+			            return '<div class="acc"><p style="font-size:30px;">Accommodation</p><p style="font-size:20px;">On-site residence</p><p>NCCU I-House features various kinds of twin rooms, double rooms, triple rooms, and suites with special rates for conference participants. NCCU has made special arrangements with several partner hotels for participants of conferences with corporate rates. NCCU I-House and some partner hotels near NCCU campus are given below.</p><p>(1)	NCCU international house (NTD 1,600 and up) (政治大學學人會館)</p><p>Web: http://101207243.wix.com/ihousenccu</p><p>Address: No.17, Ln. 112, Sec. 2, Xiuming Rd., Wenshan Dist., Taipei City 116, Taiwan</p><p>Telephone: +886-2-2936-8869</p><p>Fax: +886-2-2936-7769</p><p>Description: NCCU I-House provides accommodation for short term stays within the period of a month. Between the 6th and 7th floor there are 19 rooms, including 14 twin rooms and 5 family suites.</p></br><p style="font-size:20px;">Nearby hotels</p><p>All prices are listed prices for a night.</p><p>(2)	Howard Civil Service International House (NTD 1,920 and up) (福華國際文教會館)</p><p>English Web: http://intl-house.howard-hotels.com/?Lsn=2</p><p>Address: No.30, Sec. 3, Xinsheng S. Rd., Da’an Dist., Taipei City 106, Taiwan</p><p>Telephone: +886-2-7712-2323</p><p>Fax: +886-2-7712-23333</p></br><p>(3)	Chinatrust Executive House Hsin-Tien (NTD 1,900 and up) (新店中信大飯店)</p><p>English Web: http://hsintien.chinatrust-hotel.com/</p><p>Address: No. 219-2, Chung Shing Rd., Sec. 3, Hsin-Tien Dist., New Taipei City 231, Taiwan</p><p>Telephone: +886-2-2910-6600</p><p>Fax: +886-2-2910-5522</p></br><p>(4)	Taipei Fullerton Hotel (NTD 3,630 and up) (台北馥敦飯店)</p><p>English Web: http://www.taipeifullerton.com.tw/html/eng_south/about_us.htm</p><p>Address: No.41, Sec. 2, Fusing S. Rd., Da-an District, Taipei City 106, Taiwan</p><p>Telephone: +886-2-2703-1234</p><p>Fax: +886-2-2705-6161</p></br><p>(5)	Holliday Inn (NTD 2,700 and up) (台北深坑假日飯店)</p><p>English Web: http://www.holidayinntpe.com.tw/eng/news.php</p><p>Address: No.265, Sec.3, Beishen Rd., Shenkeng Dist., New Taipei City, 222, Taiwan</p><p>Telephone: +886-2-2662-8000</p><p>Fax: +886-2-2662-7428</p></br><p>(6)	Fullon Hotel (NTD 3,328 and up) (深坑福容飯店)</p><p>English Web: http://shenkeng.fullon-hotels.com/</p><p>Address: No. 236, Sec. 3, Beishen Rd., Shenkeng Dist., New Taipei City 222, Taiwan</p><p>Telephone: +886-2-2662-0088</p><p>Fax: +886-2-2662-1669</p></br><p>(7)	Taipei Cosmos Hotel (NTD 3,300 and up) (天成大飯店)</p><p>English Web: http://www.cosmos-hotel.com.tw/en/</p><p>Address: No. 43, Sec. 1, Chung Hsiao West Road.,Taipei City 100, Taiwan</p><p>Telephone: +886-2-2361-7856</p><p>Fax: +886-2-2311-8921</p></br><p>(8)	Brother Hotel (NTD 2,800 and up) (兄弟大飯店)</p><p>English Web: http://www.brotherhotel.com.tw/en/aboutus.php</p><p>Address: No. 255, Sect. 3, Nanjing E. Road, Songshan District, Taipei City, Taiwan</p><p>Telephone: +886-2-2712-3456</p><p>Fax: +886-2-2717-3334</p></br><p>(9)	Just Sleep @ NTU (NTD 3,000 and up) (捷絲旅商務會館-臺大尊賢館)</p><p>English Web: http://www.justsleep.com.tw/NTU/en</p><p>Address: No. 83, Sec. 4, Roosevelt Rd., Taipei, Taiwan</p><p>Telephone: +886-2-7735-5088</p><p>Fax: +886-2-7735-5068</p></div>';
 			        },
 			        contact:function(){
 						
-						return '<div>contact us</div>';
+						return '<p style="font-size:30px;">Contact Us</p><p>Name: Dr. Shih-Yuan Lin</p><p>E-mail: syl@nccu.edu.tw</p>';
 					},
 					signup:function(){
 						if(checkLog()){
 			     	  	    window.location.href = 'index.html#profile';
 						}
 						else{
-							return '<h1>Sign up</h1><div class="acrs_login"><label style="margin-left:10px;" for="acrs_username">Account</label><input id="acrs_username" type="text"><label for="acrs_password">Password</label><input id="acrs_password" type="password"><label style="padding-left:22px;" for="acrs_email">E-mail</label><input id="acrs_email" type="email"><button style="margin:45px 0 0 105px;" class="acrs_btn" onclick="signup()">submit</button></div>';
+							return '<h1>Sign up</h1><div class="acrs_login"><label style="margin-left:42px;" for="acrs_username">User</label><input id="acrs_username" type="text"><label for="acrs_password">Password</label><input id="acrs_password" type="password"><label style="padding-left:22px;" for="acrs_email">E-mail</label><input id="acrs_email" type="email"><button style="margin:45px 0 0 105px;" class="acrs_btn" onclick="signup()">submit</button></div>';
 						}
 					},
 					login:function(){
@@ -48,7 +48,7 @@ if (!Array.prototype.last){
 			     	  	    window.location.href = 'index.html#profile';
 						}
 						else{
-						    return '<h1>Login</h1><div class="acrs_login"><label style="margin-left:10px;" for="acrs_username">Account</label><input id="acrs_username" type="text"><label for="acrs_password">Password</label><input id="acrs_password" type="password"><button style="margin:45px 0 0 105px;" class="acrs_btn" onclick="login()">submit</button></div>';
+						    return '<h1>Login</h1><div class="acrs_login"><label style="margin-left:42px;" for="acrs_username">User</label><input id="acrs_username" type="text"><label for="acrs_password">Password</label><input id="acrs_password" type="password"><button style="margin:45px 0 0 105px;" class="acrs_btn" onclick="login()">submit</button></div>';
 						}
 					},
 					profile:function(){

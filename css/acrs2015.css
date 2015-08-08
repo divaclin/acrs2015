@@ -12,7 +12,7 @@ body{
 	height:100vh;
 	background:#444444;
 	font-family: 'Martel', serif;
-	overflow:hidden;
+/*	overflow:hidden;*/
 }
 .grid_960{
 	width:960px;
@@ -58,7 +58,7 @@ header{
 	margin-left:30px;
 	margin-top:35px;
 	width:185px;
-	height:480px;
+	height:950px;
 	border-right: 1.5px solid #000;
 	float:left;
 }
@@ -144,4 +144,8 @@ header{
 	display:inline-block;
 	text-align:center;
 	border-left:1px solid #000;
+}
+.acc{
+	height:950px;
+	overflow:scroll;
 }
