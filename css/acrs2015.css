@@ -1,8 +1,23 @@
+::-webkit-scrollbar
+{
+  width: 8px;  /* for vertical scrollbars */
+  height: 8px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(255, 255, 255, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
 a,a:hover,a:visited,a:active,a:focus{
 	text-decoration:none;
 	color:#000000;
 }
-h1,h4{
+h1,h4,h3{
 	margin-left:35px;
 }
 body{
@@ -12,7 +27,7 @@ body{
 	height:100vh;
 	background:#444444;
 	font-family: 'Martel', serif;
-/*	overflow:hidden;*/
+	overflow:hidden;
 }
 .grid_960{
 	width:960px;
@@ -84,6 +99,7 @@ header{
 	margin-right:20px;
 	width:715px;
 	height:480px;
+	overflow-y:scroll;
 }
 .acrs_btn{
 	background:rgb(72,72,72);
@@ -98,9 +114,9 @@ header{
 	padding-top:70px;
 }
 .acrs_profile{
-	width:280px;
+	width:315px;
 	padding-top:10px;
-	height:145px;
+	height:300px;
 	margin:0 auto;
 }
 .acrs_login label{
