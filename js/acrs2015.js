@@ -226,14 +226,12 @@ function update(){
 	    current.set("tel",$('#acrs_tel').val());
 	    current.set("affiliation",$('#acrs_affiliation').val());
 	    current.set("title",$('#acrs_title').val());
-	    current.set("attendance",$('#acrs_attendance').val());
+	    current.set("attendance",parseInt($('#acrs_attendance').val()));
 		current.save(null,{
 			success:function(data){
 				alert('profile update success');
 			},
 			error:function(data,error){
-				console.log(data);
-				console.log(error);
 				alert('update error');
 			}
 		});		
